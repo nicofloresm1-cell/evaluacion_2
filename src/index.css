@@ -29,6 +29,11 @@
     font-size: 16px;
   }
 }
+ /* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ /* stylelint-enable at-rule-no-unknown */
 
 @media (prefers-color-scheme: dark) {
   :root {
